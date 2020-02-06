@@ -1,0 +1,4 @@
+<language key="en-us">
+  <resource name="CAMELCASE_description">WIDGET_NAME description.</resource>
+  <resource name="CAMELCASE_name">WIDGET_NAME</resource>
+</language>

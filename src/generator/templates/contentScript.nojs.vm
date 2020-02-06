@@ -1,0 +1,5 @@
+$core_v2_page.AddLink('stylesheet', $core_v2_widget.GetExecutedFileUrl('style.less'), "%{ Position = 'AfterTheme' }")
+
+#set ($someValue = $core_v2_widget.GetStringValue('someValue', 'defaultValue'))
+
+<p>Some value is <strong>$someValue</strong></p>

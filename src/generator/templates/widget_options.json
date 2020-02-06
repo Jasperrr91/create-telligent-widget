@@ -1,0 +1,12 @@
+{
+  "name": "${resource:activityStory_name}",
+  "version": "11.1.0.9731",
+  "description": "${resource:activityStory_description}",
+  "instanceIdentifier": "",
+  "theme": "",
+  "isCacheable": "true",
+  "varyCacheByUser": "true",
+  "showHeaderByDefault": "false",
+  "cssClass": "",
+  "lastModified": ""
+}

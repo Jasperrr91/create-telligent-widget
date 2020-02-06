@@ -1,0 +1,3 @@
+<propertyGroup id="options" resourceName="Options">
+	<property id="someValue" resourceName="someValue" dataType="string" defaultValue="" />
+</propertyGroup>

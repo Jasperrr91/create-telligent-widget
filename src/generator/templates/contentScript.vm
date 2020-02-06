@@ -1,0 +1,18 @@
+$core_v2_page.AddLink('stylesheet', $core_v2_widget.GetExecutedFileUrl('style.less'), "%{ Position = 'AfterTheme' }")
+
+#set ($someValue = $core_v2_widget.GetStringValue('someValue', 'defaultValue'))
+
+<p>Some value is <strong>$someValue</strong></p>
+
+#registerEndOfPageHtml('NAMESPACE.widgets.WIDGET_NAME')
+    <script type="text/javascript" src="$core_v2_encoding.HtmlAttributeEncode($core_v2_widget.GetFileUrl('ui.js'))"></script>
+#end
+#registerEndOfPageHtml()
+	<script type="text/javascript">
+		jQuery(function(){
+			jQuery.NAMESPACE.widgets.WIDGET_NAME.register({
+				someValue: '$core_v2_encoding.JavascriptEncode($keyword)',
+			});
+		});
+	</script>
+#end

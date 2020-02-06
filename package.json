@@ -36,6 +36,7 @@
   "homepage": "https://github.com/Jasperrr91/create-telligent-widget#readme",
   "dependencies": {
     "arg": "^4.1.3",
+    "camelcase": "^5.3.1",
     "esm": "^3.2.25",
     "inquirer": "^7.0.4"
   }
