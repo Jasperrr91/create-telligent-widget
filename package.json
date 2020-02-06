@@ -1,0 +1,42 @@
+{
+  "name": "create-telligent-widget",
+  "version": "0.0.1",
+  "description": "Generates a basic Telligent Widget",
+  "main": "src/index.js",
+  "bin": {
+    "@jasperrr91/create-telligent-widget": "bin/create-telligent-widget",
+    "create-telligent-widget": "bin/create-telligent-widget"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasperrr91/create-telligent-widget.git"
+  },
+  "keywords": [
+    "telligent",
+    "telligent widget",
+    "telligent generator",
+    "widget",
+    "generator"
+  ],
+  "author": {
+    "name": "Jasper van der Stoop",
+    "email": "jasper@vanderstoop.nl",
+    "url": "https://github.com/jasperrr91"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jasperrr91/create-telligent-widget/issues"
+  },
+  "homepage": "https://github.com/Jasperrr91/create-telligent-widget#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.4"
+  }
+}
