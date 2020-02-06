@@ -1,6 +1,6 @@
 {
   "name": "create-telligent-widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates a basic Telligent Widget",
   "main": "src/index.js",
   "bin": {
