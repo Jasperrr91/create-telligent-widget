@@ -39,5 +39,9 @@
     "camelcase": "^5.3.1",
     "esm": "^3.2.25",
     "inquirer": "^7.0.4"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
 }
